@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+body{
+    display: block;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 50px;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main-header {
+    background-color: #0081a7;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links button {
+    background-color: rgb(255, 255, 255);
+    color: #168aad;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 10px; /* Espacio entre los botones */
+    cursor: pointer;
+}
+
+.bodynegro{
+background-color: #000000;
+}
+
+.navExplora{
+    overflow:hidden;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    background-color:#168aad
+}
+
+li a{
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:#4ea8de
+    }
+    
+.navtres{
+    float:left;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap:20px ;
+}
+
+/* Estilos del aside de retos */
+
+.retos-section {
+    width: 200px;
+}
+
+.retos-aside {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.retos-title {
+    margin-bottom: 10px;
+}
+
+.retos-list {
+    list-style: none;
+    padding: 0;
+}
+
+.retos-item {
+    margin-bottom: 5px;
+}
+
+.explore {
+    background-color: antiquewhite;
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.imgexplore {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    background-color: #cfccccf0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgexplore img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.product-content h2 {
+    font-size: 24px;
+}
+
+.product-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.product-content a {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid white;
+    color: #000;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+}
+
+.product span {
+    background-color: rgb(196, 70, 70);
+    padding: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: -10px;
+}
